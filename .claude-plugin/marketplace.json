@@ -1,0 +1,22 @@
+{
+  "name": "th-plugins",
+  "metadata": {
+    "description": "Claude Code plugins by Tyler Ho"
+  },
+  "owner": {
+    "name": "Tyler Ho"
+  },
+  "plugins": [
+    {
+      "name": "specflow",
+      "description": "Spec-driven development workflow: scout codebase, research docs, plan tasks, and execute",
+      "version": "0.1.0",
+      "source": "./plugins/specflow",
+      "author": {
+        "name": "Tyler Ho"
+      },
+      "license": "MIT",
+      "keywords": ["workflow", "planning", "research", "scout", "spec-driven", "task-management"]
+    }
+  ]
+}
