@@ -39,6 +39,17 @@
       },
       "license": "MIT",
       "keywords": ["agents", "orchestration", "parallel", "qwen", "gemini", "opencode", "multi-agent"]
+    },
+    {
+      "name": "adversarial-code-review",
+      "description": "Two-agent adversarial code review with a Sonnet critiquer that debates design decisions, finds logical flaws, and negotiates net actions before any code changes",
+      "version": "0.1.0",
+      "source": "./plugins/adversarial-code-review",
+      "author": {
+        "name": "Tyler Ho"
+      },
+      "license": "MIT",
+      "keywords": ["code-review", "adversarial", "debate", "quality", "critiquer", "refactoring"]
     }
   ]
 }
