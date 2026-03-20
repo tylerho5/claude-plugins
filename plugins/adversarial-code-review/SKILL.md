@@ -25,7 +25,7 @@ Create the team and spawn the critiquer agent:
 The critiquer's prompt should be:
 
 ```
-Read <skill-dir>/critiquer-prompt.md for your review instructions and output format.
+Read <skill-dir>/references/critiquer-prompt.md for your review instructions and output format.
 
 Here is the diff to review:
 <paste the diff>
