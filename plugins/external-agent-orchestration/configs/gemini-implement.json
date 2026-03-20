@@ -1,0 +1,15 @@
+{
+  "model": {
+    "name": "gemini-3-flash-preview"
+  },
+  "tools": {
+    "sandbox": "permissive-open",
+    "exclude": [
+      "run_shell_command(git *)",
+      "run_shell_command(rm *)",
+      "run_shell_command(sudo *)",
+      "run_shell_command(pip install *)",
+      "run_shell_command(npm install *)"
+    ]
+  }
+}

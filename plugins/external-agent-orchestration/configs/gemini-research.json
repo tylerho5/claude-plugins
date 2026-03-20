@@ -1,0 +1,26 @@
+{
+  "model": {
+    "name": "gemini-3-flash-preview"
+  },
+  "tools": {
+    "sandbox": "permissive-open",
+    "exclude": [
+      "read_file(*/.env*)",
+      "read_file(*/.ssh/*)",
+      "read_file(*/credentials*)",
+      "read_file(*/secrets*)",
+      "read_file(*/.aws/*)",
+      "read_file(*/.gcp/*)",
+      "read_file(*/config/keys*)",
+      "read_file(*token*)",
+      "read_file(*password*)",
+      "edit_file",
+      "write_file",
+      "run_shell_command(git *)",
+      "run_shell_command(rm *)",
+      "run_shell_command(sudo *)",
+      "run_shell_command(pip install *)",
+      "run_shell_command(npm install *)"
+    ]
+  }
+}

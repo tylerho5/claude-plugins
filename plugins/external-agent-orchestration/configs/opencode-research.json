@@ -1,0 +1,39 @@
+{
+  "model": "opencode/glm-4.7-free",
+  "permission": {
+    "read": "allow",
+    "webfetch": "allow",
+    "edit": "deny",
+    "bash": {
+      "*": "allow",
+      "curl *": "allow",
+      "wget *": "allow",
+      "git *": "deny",
+      "rm *": "deny",
+      "sudo *": "deny",
+      "npm install*": "deny",
+      "pip install*": "deny"
+    }
+  },
+  "tools": {
+    "read": true,
+    "webfetch": true,
+    "write": false,
+    "edit": false,
+    "bash": true
+  },
+  "blocklist": {
+    "files": [
+      "**/.env*",
+      "**/.ssh/*",
+      "**/credentials*",
+      "**/secrets*",
+      "**/.aws/*",
+      "**/.gcp/*",
+      "**/config/keys*",
+      "**/*token*",
+      "**/*password*"
+    ]
+  },
+  "$schema": "https://opencode.ai/config.json"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "external-agent-orchestration",
+  "description": "Orchestrate external CLI coding agents (Qwen Code, Gemini CLI, OpenCode CLI) for parallel execution, diverse perspectives, and distributed LLM quota usage",
+  "version": "0.1.0",
+  "author": {
+    "name": "Tyler Ho"
+  },
+  "license": "MIT",
+  "keywords": ["agents", "orchestration", "parallel", "qwen", "gemini", "opencode", "multi-agent"]
+}

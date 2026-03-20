@@ -1,0 +1,19 @@
+{
+  "model": "opencode/glm-4.7-free",
+  "permission": {
+    "edit": "allow",
+    "bash": {
+      "git *": "deny",
+      "rm *": "deny",
+      "sudo *": "deny",
+      "npm install*": "deny",
+      "pip install*": "deny"
+    }
+  },
+  "tools": {
+    "write": true,
+    "edit": true,
+    "bash": true
+  },
+  "$schema": "https://opencode.ai/config.json"
+}
