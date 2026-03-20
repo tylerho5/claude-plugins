@@ -1,0 +1,10 @@
+{
+  "name": "specflow",
+  "description": "Spec-driven development workflow: scout codebase, research docs, plan tasks, and execute — all powered by native Claude Code agents",
+  "version": "0.1.0",
+  "author": {
+    "name": "Tyler Ho"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "planning", "research", "scout", "spec-driven", "task-management"]
+}
