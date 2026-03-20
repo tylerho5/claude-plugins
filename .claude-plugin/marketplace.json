@@ -17,6 +17,17 @@
       },
       "license": "MIT",
       "keywords": ["workflow", "planning", "research", "scout", "spec-driven", "task-management"]
+    },
+    {
+      "name": "langsmith-debug",
+      "description": "Debug and analyze LangChain agents using LangSmith traces via CLI export and Python analysis scripts",
+      "version": "0.1.0",
+      "source": "./plugins/langsmith-debug",
+      "author": {
+        "name": "Tyler Ho"
+      },
+      "license": "MIT",
+      "keywords": ["langsmith", "langchain", "debugging", "traces", "agents", "observability"]
     }
   ]
 }
