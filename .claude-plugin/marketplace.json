@@ -8,17 +8,6 @@
   },
   "plugins": [
     {
-      "name": "specflow",
-      "description": "Spec-driven development workflow: scout codebase, research docs, plan tasks, and execute",
-      "version": "0.1.0",
-      "source": "./plugins/specflow",
-      "author": {
-        "name": "Tyler Ho"
-      },
-      "license": "MIT",
-      "keywords": ["workflow", "planning", "research", "scout", "spec-driven", "task-management"]
-    },
-    {
       "name": "langsmith-debug",
       "description": "Debug and analyze LangChain agents using LangSmith traces via CLI export and Python analysis scripts",
       "version": "0.1.0",
@@ -28,28 +17,6 @@
       },
       "license": "MIT",
       "keywords": ["langsmith", "langchain", "debugging", "traces", "agents", "observability"]
-    },
-    {
-      "name": "external-agent-orchestration",
-      "description": "Orchestrate external CLI coding agents (Qwen Code, Gemini CLI, OpenCode CLI) for parallel execution, diverse perspectives, and distributed LLM quota usage",
-      "version": "0.1.0",
-      "source": "./plugins/external-agent-orchestration",
-      "author": {
-        "name": "Tyler Ho"
-      },
-      "license": "MIT",
-      "keywords": ["agents", "orchestration", "parallel", "qwen", "gemini", "opencode", "multi-agent"]
-    },
-    {
-      "name": "adversarial-code-review",
-      "description": "Two-agent adversarial code review with a Sonnet critiquer that debates design decisions, finds logical flaws, and negotiates net actions before any code changes",
-      "version": "0.1.0",
-      "source": "./plugins/adversarial-code-review",
-      "author": {
-        "name": "Tyler Ho"
-      },
-      "license": "MIT",
-      "keywords": ["code-review", "adversarial", "debate", "quality", "critiquer", "refactoring"]
     },
     {
       "name": "datamining-claude-code-binary",
