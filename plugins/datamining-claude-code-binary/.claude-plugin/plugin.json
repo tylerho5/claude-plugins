@@ -1,0 +1,10 @@
+{
+  "name": "datamining-claude-code-binary",
+  "description": "Inspect and reverse-engineer the Claude Code native binary: locate the compiled executable across install methods, then carve byte windows to extract embedded prompts, tool definitions, tengu_* feature-flag gates, and telemetry event names",
+  "version": "0.1.0",
+  "author": {
+    "name": "Tyler Ho"
+  },
+  "license": "MIT",
+  "keywords": ["claude-code", "reverse-engineering", "datamining", "binary", "feature-flags", "tengu", "system-prompt", "bun"]
+}
